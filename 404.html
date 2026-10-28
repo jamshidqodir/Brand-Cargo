@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<!-- 404 istalgan chuqurlikdagi URL'da ochiladi: nisbiy yo'llarni sayt ildiziga bog'laymiz (GitHub Pages'da /<repo>/, boshqa joyda /) -->
+<script>(function(){var s=location.pathname.split('/')[1];document.write('<base href="'+(/\.github\.io$/.test(location.hostname)&&s?'/'+s+'/':'/')+'">')})()</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Page not found — Brand Cargo</title>
 <meta name="description" content="Page not found.">
@@ -20,6 +22,7 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
+<script>document.currentScript.previousElementSibling.href=location.pathname+'#main'</script>
 <header class="site-header">
   <div class="container">
     <a class="logo" href="./" aria-label="Brand Cargo — home"><img src="assets/img/logo.png" alt="Brand Cargo Inc." width="149" height="102"></a>
