@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://brandcargo.com/sitemap.xml
+Sitemap: https://brandcargo.net/sitemap.xml

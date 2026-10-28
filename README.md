@@ -29,7 +29,7 @@ sitemap.xml, robots.txt
 
 ## Ishga tushirishdan oldin qilinadigan ishlar
 
-- [ ] **Domen**: barcha sahifalardagi `https://brandcargo.com` ni haqiqiy domenga almashtiring (VS Code: Cmd+Shift+H, ya'ni hamma fayllarda qidirib almashtirish). `sitemap.xml` va `robots.txt` ham shunga kiradi.
+- [x] **Domen**: sayt `brandcargo.net` da (GitHub Pages, `CNAME` fayli). `brandcargo.co` Hostinger'da shu domenga yo'naltirilgan.
 - [ ] **Formalar** (Quote, haydovchi arizasi, mashina so'rovi): https://web3forms.com dan `brandcargous@gmail.com` uchun bepul access key oling. So'ng hamma fayllardagi `YOUR_WEB3FORMS_ACCESS_KEY` ni shu kalitga almashtiring (Cmd+Shift+H). Kalit qo'yilmaguncha formalar foydalanuvchining email ilovasini ochadi.
 - [ ] **MC / USDOT**: footer'dagi `footer__legal` qatoriga raqamlarni yozing va `hidden` ni o'chiring (hamma sahifalarda).
 - [ ] **Ijtimoiy tarmoqlar**: footer'dagi `href="#"` larga Brand Cargo'ning haqiqiy sahifalarini qo'ying (barcha sahifalarda).
